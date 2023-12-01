@@ -43,4 +43,5 @@ int main() {
             default: printf("Digite um numero valido para o seu estado!(1 a 4).");
         }
     }
+    return 0;
 }
