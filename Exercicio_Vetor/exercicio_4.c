@@ -5,12 +5,17 @@
 int main() {
     int number[10];
     int maior = 0;
-    int menor = 7000000;
+    int menor = 0;
 
     printf("Digite os valores em cada posicao do vetor\n");
     
     for(int i = 0;i<=10;i++) {
         scanf("%d", &number[i]);
+
+        if(i == 0) {
+            menor = number[i];
+            maior = number[i];
+        }
 
         if(number[i] > maior) {
              maior = number[i];

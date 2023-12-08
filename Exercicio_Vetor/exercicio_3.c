@@ -12,8 +12,8 @@ int main() {
 
     for(int i = 0;i<=10;i++) {
         if(number[i] % 2 == 0) {
-            total = total + 1;
-        } else {}
+            total++;
+        }
     }
     printf("A quantidade de valores pares digitados e: %d", total);
 }
